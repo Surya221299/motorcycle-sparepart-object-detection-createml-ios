@@ -19,9 +19,9 @@ All images in this project were **collected and prepared manually**.
 
 - Images were captured manually using a **mobile camera**
 - Each image was annotated and **labeled manually**
-- Bounding boxes were drawn one by one for each class
-- Number of classes: 8 motorcycle sparepart classes
-- Total dataset size: 1,766 images
+- Bounding boxes were **drawn one by one for each class**
+- Number of classes: **8 motorcycle sparepart classes**
+- Total dataset size: **1,766 images**
 
 This process helped ensure dataset quality and improved model generalization.
 
@@ -45,12 +45,12 @@ This process helped ensure dataset quality and improved model generalization.
 
 ## 🎯 Use Cases
 
-Motorcycle sparepart object detection
-iOS real-time camera vision
-Practical Create ML object detection workflow
+- Motorcycle sparepart object detection
+- iOS real-time camera vision
+- Practical Create ML object detection workflow
 
 
-## ✨ Features :
+## ✨ Features
 - Real-time camera object detection
 - Bounding box + label + confidence score
 - On-device inference (Core ML)
@@ -103,6 +103,17 @@ This project was built to gain hands-on experience in:
 ## ⚠️ Requirements :
 - iOS 13+
 - iPhone (Camera access allowed)
+
+## ⚠️ Limitations
+- Performance may vary under low lighting conditions
+- Similar-looking spareparts can cause false positives
+- Dataset size is limited to 1,766 images
+
+## 🚀 Future Improvements
+- Increase dataset size and class diversity
+- Improve dataset quality to enhance accuracy, precision, and recall
+- Add object tracking between frames
+- Model optimization and quantization
 
 # 🧑‍💻 Author
 ### Surya Ramadhani
