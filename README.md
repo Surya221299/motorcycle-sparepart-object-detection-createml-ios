@@ -13,33 +13,38 @@ The app runs entirely **on-device (without internet)**, making it suitable for m
 
 All images in this project were **collected and prepared manually**.
 
-- I personally captured motorcycle sparepart images using a mobile camera
-- Each image was **annotated and labeled manually** for 8 class
-- Bounding boxes were drawn **one by one** for each sparepart class
-- Total dataset size: **1,766 images**
-- Dataset split:
-  - Train: 70%
-  - Validation: 15%
-  - Test: 15%
+- Images were captured manually using a **mobile camera**
+- Each image was annotated and **labeled manually**
+- Bounding boxes were drawn one by one for each class
+- Number of classes: 8 motorcycle sparepart classes
+- Total dataset size: 1,766 images
 
 This process helped ensure dataset quality and improved model generalization.
 
+## 📸 Dataset Split
+
+| Split | Percentage | Description |
+|------|-----------|-------------|
+| Train | 70% | Used to train the object detection model |
+| Validation | 15% | Used for tuning and evaluation during training |
+| Test | 15% | Used for final performance evaluation |
+
+
 ## 📊 Model Performance
 
-| Metric | Value | Note |
-|:------|:-----:|-----:|
-| mAP | 0.5 | Medium |
-| Precision | 0.9 | High |
-| Recall | 0.50 | Medium |
+| Metric | Value | Interpretation |
+|:------|:-----:|---------------:|
+| mAP | 0.50 | Medium detection accuracy |
+| Precision | 0.90 | High prediction correctness |
+| Recall | 0.50 | Medium object coverage |
 
-Use cases:
-- Motorcycle spare part object detection
-- iOS camera vision
-- Training image dataset using CreateML Framework
 
-## ⚠️ Requirements :
-- iOS 13+
-- iPhone (Camera access allowed)
+## 🎯 Use Cases
+
+Motorcycle sparepart object detection
+iOS real-time camera vision
+Practical Create ML object detection workflow
+
 
 ## Features :
 - Real-time camera object detection
@@ -49,42 +54,51 @@ Use cases:
 - Smooth frame processing
 - Train / Validation / Test split support
 
-## Tech Stack :
-- ML Training (CreateML Object Detection)
-- Inference (CoreML)
-- Dataset Tool (Roboflow)
-- UI (UIKit)
-- Programming Language (Swift)
-- Camera (Vision)
+## 🏗 Tech Stack
 
-## Model Details :
+| Component | Technology |
+|--------|-----------|
+| ML Training | Create ML (Object Detection) |
+| Inference | Core ML |
+| Vision | Vision Framework |
+| UI | UIKit |
+| Programming Language | Swift |
+| Dataset Tool | Roboflow |
+| Platform | iOS |
+
+
+🧩 Model Details
+
 - Model type: Create ML Object Detection
 - Input: Camera frames
 - Output:
   - Bounding boxes
   - Class labels
-  - Confidence percentage scores
+  - Confidence scores
 
-- Training split:
-  - Train: 70%
-  - Validation: 15%
-  - Test: 15%
+- Annotation type: Bounding box
 
 The dataset is labeled using bounding box annotation.
 
-## Dataset:
-- Source: Custom / Roboflow
-- Annotation: Bounding Box
+## 📦 Dataset
+
+- Source: Custom dataset (captured manually)
+- Annotation: Bounding box
 - Format: Create ML compatible
-Dataset tidak disertakan di repo (size & license).
+Dataset is not included in this repository due to size and licensing constraints.
 
 ## 📚 Learning Outcome
 
-Project ini dibuat untuk:
-- Hands-on experience in **manual data collection and annotation** (1,766 labeled images for 8 different class)
-- Memahami Create ML Object Detection
-- Integrasi Core ML + Vision di UIKit
-- End-to-end ML workflow di iOS
+This project was built to gain hands-on experience in:
+
+- Manual dataset creation and annotation (1,766 labeled images across 8 classes)
+- Create ML Object Detection pipeline
+- Integrating Core ML and Vision in UIKit
+- End-to-end on-device ML workflow on iOS
+
+## ⚠️ Requirements :
+- iOS 13+
+- iPhone (Camera access allowed)
 
 ## 👤 Author
 Surya Ramadhani
