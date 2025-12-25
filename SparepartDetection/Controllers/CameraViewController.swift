@@ -71,18 +71,10 @@ final class CameraViewController: UIViewController {
         boxContainerView.subviews.forEach { $0.removeFromSuperview() }
     }
 
-    private func convertRect(_ normalized: CGRect) -> CGRect {
-        // Vision normalized rect -> metadataOutputRect
-        // VN boundingBox = normalized, origin bottom-left
-        // AVCapture metadata = origin top-left
-        let metadataRect = CGRect(
-            x: normalized.origin.x,
-            y: 1 - normalized.origin.y - normalized.size.height,
-            width: normalized.size.width,
-            height: normalized.size.height
-        )
-        return previewLayer.layerRectConverted(fromMetadataOutputRect: metadataRect)
+    private func convertRect(_ boundingBox: CGRect) -> CGRect {
+        return previewLayer.layerRectConverted(fromMetadataOutputRect: boundingBox)
     }
+
 
     private func render(_ detections: [DetectionResult]) {
         clearBoxes()
