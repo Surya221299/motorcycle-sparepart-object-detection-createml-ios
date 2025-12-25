@@ -1,6 +1,10 @@
 #  🏍️ motorcycle-sparepart-object-detection-createml-ios
 Live motorcycle sparepart detection using Create ML, Core ML, and UIKit.
 
+## 🎥 Demo
+
+
+
 ## 🧠 Overview
 
 This project is an iOS app that performs **real-time object detection for motorcycle spareparts** using a model trained with **Create ML**.
@@ -103,7 +107,7 @@ This project was built to gain hands-on experience in:
 # 🧑‍💻 Author
 ## Surya Ramadhani
 
-##🎓 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
+## 🎓 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
 
 GitHub: https://github.com/Surya221299
 
