@@ -1,7 +1,7 @@
 #  🏍️ motorcycle-sparepart-object-detection-createml-ios
 Live motorcycle sparepart detection using Create ML, Core ML, and UIKit.
 
-## 🎥 tap image to watch App Demo
+## 🎥 App Demo Video
 [![Watch Demo Video](https://img.youtube.com/vi/VQiWeZKRXr4/0.jpg)](https://youtube.com/shorts/VQiWeZKRXr4?feature=share)
 
 
