@@ -40,7 +40,7 @@ This process helped ensure dataset quality and improved model generalization.
 |:------|:-----:|---------------:|
 | mAP | 0.50 | Medium detection accuracy |
 | Precision | 0.90 | High prediction correctness |
-| Recall | 0.50 | Medium object coverage |
+| Recall | 0.51 | Medium object coverage |
 
 
 ## 🎯 Use Cases
