@@ -14,7 +14,7 @@ The app runs entirely **on-device (without internet)**, making it suitable for m
 All images in this project were **collected and prepared manually**.
 
 - I personally captured motorcycle sparepart images using a mobile camera
-- Each image was **annotated and labeled manually**
+- Each image was **annotated and labeled manually** for 8 class
 - Bounding boxes were drawn **one by one** for each sparepart class
 - Total dataset size: **1,766 images**
 - Dataset split:
@@ -28,9 +28,9 @@ This process helped ensure dataset quality and improved model generalization.
 
 | Metric | Value | Note |
 |:------|:-----:|-----:|
-| mAP | 0.82 | Good |
-| Precision | 0.85 | High |
-| Recall | 0.80 | Medium |
+| mAP | 0.5 | Medium |
+| Precision | 0.9 | High |
+| Recall | 0.50 | Medium |
 
 Use cases:
 - Motorcycle spare part object detection
