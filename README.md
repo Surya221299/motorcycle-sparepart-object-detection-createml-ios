@@ -103,7 +103,7 @@ This project was built to gain hands-on experience in:
 # 🧑‍💻 Author
 ## Surya Ramadhani
 
-Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
+##🎓 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
 
 GitHub: https://github.com/Surya221299
 
