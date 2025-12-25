@@ -101,7 +101,7 @@ This project was built to gain hands-on experience in:
 - iPhone (Camera access allowed)
 
 # 🧑‍💻 Author
-##Surya Ramadhani
+## Surya Ramadhani
 
 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
 
