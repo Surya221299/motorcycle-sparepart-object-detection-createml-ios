@@ -13,7 +13,7 @@ The dataset was **manually collected, annotated, and labeled** to ensure high-qu
 
 The app runs entirely **on-device (without internet)**, making it suitable for mobile and real-world use cases.
 
-## 📸 Dataset Creation
+## 🖼️ Dataset Creation
 
 All images in this project were **collected and prepared manually**.
 
@@ -25,7 +25,7 @@ All images in this project were **collected and prepared manually**.
 
 This process helped ensure dataset quality and improved model generalization.
 
-## 🏷️ Dataset Split
+## 📊 Dataset Split
 
 | Split | Percentage | Description |
 |------|-----------|-------------|
@@ -34,7 +34,7 @@ This process helped ensure dataset quality and improved model generalization.
 | Test | 15% | Used for final performance evaluation |
 
 
-## 📊 Model Performance
+## 📈 Model Performance
 
 | Metric | Value | Interpretation |
 |:------|:-----:|---------------:|
@@ -105,9 +105,8 @@ This project was built to gain hands-on experience in:
 - iPhone (Camera access allowed)
 
 # 🧑‍💻 Author
-## Surya Ramadhani
-
-## 🎓 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
+### Surya Ramadhani
+### 🎓 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
 
 GitHub: https://github.com/Surya221299
 
