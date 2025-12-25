@@ -13,4 +13,3 @@ struct DetectionResult {
     let label: String
     let confidence: Float
 }
-
