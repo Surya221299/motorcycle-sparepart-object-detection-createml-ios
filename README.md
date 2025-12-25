@@ -2,7 +2,7 @@
 Live motorcycle sparepart detection using Create ML, Core ML, and UIKit.
 
 ## 🎥 Demo
-[![Watch Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtube.com/shorts/VQiWeZKRXr4?feature=share)
+[![Watch Demo Video](https://img.youtube.com/vi/VQiWeZKRXr4/0.jpg)](https://youtube.com/shorts/VQiWeZKRXr4?feature=share)
 
 
 ## 🧠 Overview
