@@ -95,7 +95,7 @@ Dataset is not included in this repository due to size and licensing constraints
 
 This project was built to gain hands-on experience in:
 
-- Manual dataset creation and annotation (1,766 labeled images across 8 classes)
+- Manual dataset creation and annotation using Roboflow (1,766 labeled images across 8 classes)
 - Create ML Object Detection pipeline
 - Integrating Core ML and Vision in UIKit
 - End-to-end on-device ML workflow on iOS
