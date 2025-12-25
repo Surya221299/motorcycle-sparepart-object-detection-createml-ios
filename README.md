@@ -1,4 +1,4 @@
-# motorcycle-sparepart-object-detection-createml-ios
+#  🏍️ motorcycle-sparepart-object-detection-createml-ios
 Live motorcycle sparepart detection using Create ML, Core ML, and UIKit.
 
 ## 🧠 Overview
@@ -21,7 +21,7 @@ All images in this project were **collected and prepared manually**.
 
 This process helped ensure dataset quality and improved model generalization.
 
-## 📸 Dataset Split
+## 🏷️ Dataset Split
 
 | Split | Percentage | Description |
 |------|-----------|-------------|
@@ -46,7 +46,7 @@ iOS real-time camera vision
 Practical Create ML object detection workflow
 
 
-## Features :
+## ✨ Features :
 - Real-time camera object detection
 - Bounding box + label + confidence score
 - On-device inference (Core ML)
@@ -67,7 +67,7 @@ Practical Create ML object detection workflow
 | Platform | iOS |
 
 
-🧩 Model Details
+## 🤖 Model Details
 
 - Model type: Create ML Object Detection
 - Input: Camera frames
@@ -80,7 +80,7 @@ Practical Create ML object detection workflow
 
 The dataset is labeled using bounding box annotation.
 
-## 📦 Dataset
+## 🗃️ Dataset
 
 - Source: Custom dataset (captured manually)
 - Annotation: Bounding box
@@ -100,8 +100,9 @@ This project was built to gain hands-on experience in:
 - iOS 13+
 - iPhone (Camera access allowed)
 
-## 👤 Author
-Surya Ramadhani
+# 🧑‍💻 Author
+##Surya Ramadhani
+
 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
 
 GitHub: https://github.com/Surya221299
