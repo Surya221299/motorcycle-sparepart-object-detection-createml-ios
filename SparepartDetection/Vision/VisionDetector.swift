@@ -63,7 +63,7 @@ final class VisionDetector {
             completion(mapped)
         }
 
-        request.imageCropAndScaleOption = .scaleFill
+        request.imageCropAndScaleOption = .scaleFit
 
         let handler = VNImageRequestHandler(
             cvPixelBuffer: pixelBuffer,
