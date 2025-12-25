@@ -37,11 +37,11 @@ Use cases:
 - iOS camera vision
 - Training image dataset using CreateML Framework
 
-⚠️ Requirements :
+## ⚠️ Requirements :
 - iOS 13+
 - iPhone (Camera access allowed)
 
-Features :
+## Features :
 - Real-time camera object detection
 - Bounding box + label + confidence score
 - On-device inference (Core ML)
@@ -49,7 +49,7 @@ Features :
 - Smooth frame processing
 - Train / Validation / Test split support
 
-Tech Stack :
+## Tech Stack :
 - ML Training (CreateML Object Detection)
 - Inference (CoreML)
 - Dataset Tool (Roboflow)
@@ -57,7 +57,7 @@ Tech Stack :
 - Programming Language (Swift)
 - Camera (Vision)
 
-Model Details :
+## Model Details :
 - Model type: Create ML Object Detection
 - Input: Camera frames
 - Output:
@@ -72,13 +72,13 @@ Model Details :
 
 The dataset is labeled using bounding box annotation.
 
-Dataset:
+## Dataset:
 - Source: Custom / Roboflow
 - Annotation: Bounding Box
 - Format: Create ML compatible
 Dataset tidak disertakan di repo (size & license).
 
-📚 Learning Outcome
+## 📚 Learning Outcome
 
 Project ini dibuat untuk:
 - Hands-on experience in **manual data collection and annotation** (1,766 labeled images for 8 different class)
@@ -86,9 +86,10 @@ Project ini dibuat untuk:
 - Integrasi Core ML + Vision di UIKit
 - End-to-end ML workflow di iOS
 
-👤 Author
+## 👤 Author
 Surya Ramadhani
 Apple Developer Academy Graduate @Infinite Learning Cohort 2025 | AI/ML Enthusiast
 
 GitHub: https://github.com/Surya221299
+
 LinkedIn: https://www.linkedin.com/in/sur-ramdhan/
