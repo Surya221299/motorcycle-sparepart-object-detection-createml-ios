@@ -32,7 +32,6 @@ final class VisionDetector {
                 orientation: CGImagePropertyOrientation,
                 completion: @escaping ([DetectionResult]) -> Void) {
 
-        // ✅ BUAT REQUEST BARU
         let request = VNCoreMLRequest(model: vnModel) { request, error in
 
             guard error == nil else {

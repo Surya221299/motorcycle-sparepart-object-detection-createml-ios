@@ -9,7 +9,7 @@ import Foundation
 import CoreGraphics
 
 struct DetectionResult {
-    let normalizedRect: CGRect     // rect dari Vision (0...1)
+    let normalizedRect: CGRect
     let label: String
     let confidence: Float
 }

@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D8E012AE2ED6E8A7003DD58C /* SparepartDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparepartDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E012AE2ED6E8A7003DD58C /* DetectParts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectParts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D8E012C02ED6E8A8003DD58C /* Exceptions for "SparepartDetection" folder in "SparepartDetection" target */ = {
+		D8E012C02ED6E8A8003DD58C /* Exceptions for "DetectParts" folder in "DetectParts" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D8E012AD2ED6E8A7003DD58C /* SparepartDetection */;
+			target = D8E012AD2ED6E8A7003DD58C /* DetectParts */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D8E012B02ED6E8A7003DD58C /* SparepartDetection */ = {
+		D8E012B02ED6E8A7003DD58C /* DetectParts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D8E012C02ED6E8A8003DD58C /* Exceptions for "SparepartDetection" folder in "SparepartDetection" target */,
+				D8E012C02ED6E8A8003DD58C /* Exceptions for "DetectParts" folder in "DetectParts" target */,
 			);
-			path = SparepartDetection;
+			path = DetectParts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		D8E012A52ED6E8A7003DD58C = {
 			isa = PBXGroup;
 			children = (
-				D8E012B02ED6E8A7003DD58C /* SparepartDetection */,
+				D8E012B02ED6E8A7003DD58C /* DetectParts */,
 				D8E012AF2ED6E8A7003DD58C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		D8E012AF2ED6E8A7003DD58C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8E012AE2ED6E8A7003DD58C /* SparepartDetection.app */,
+				D8E012AE2ED6E8A7003DD58C /* DetectParts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8E012AD2ED6E8A7003DD58C /* SparepartDetection */ = {
+		D8E012AD2ED6E8A7003DD58C /* DetectParts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8E012C12ED6E8A8003DD58C /* Build configuration list for PBXNativeTarget "SparepartDetection" */;
+			buildConfigurationList = D8E012C12ED6E8A8003DD58C /* Build configuration list for PBXNativeTarget "DetectParts" */;
 			buildPhases = (
 				D8E012AA2ED6E8A7003DD58C /* Sources */,
 				D8E012AB2ED6E8A7003DD58C /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D8E012B02ED6E8A7003DD58C /* SparepartDetection */,
+				D8E012B02ED6E8A7003DD58C /* DetectParts */,
 			);
-			name = SparepartDetection;
+			name = DetectParts;
 			packageProductDependencies = (
 			);
 			productName = SparepartDetection;
-			productReference = D8E012AE2ED6E8A7003DD58C /* SparepartDetection.app */;
+			productReference = D8E012AE2ED6E8A7003DD58C /* DetectParts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8E012A92ED6E8A7003DD58C /* Build configuration list for PBXProject "SparepartDetection" */;
+			buildConfigurationList = D8E012A92ED6E8A7003DD58C /* Build configuration list for PBXProject "DetectParts" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8E012AD2ED6E8A7003DD58C /* SparepartDetection */,
+				D8E012AD2ED6E8A7003DD58C /* DetectParts */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SparepartDetection/Info.plist;
+				INFOPLIST_FILE = DetectParts/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "our app need camera permission";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -180,7 +180,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SparepartDetection/Info.plist;
+				INFOPLIST_FILE = DetectParts/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "our app need camera permission";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8E012A92ED6E8A7003DD58C /* Build configuration list for PBXProject "SparepartDetection" */ = {
+		D8E012A92ED6E8A7003DD58C /* Build configuration list for PBXProject "DetectParts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8E012C42ED6E8A8003DD58C /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8E012C12ED6E8A8003DD58C /* Build configuration list for PBXNativeTarget "SparepartDetection" */ = {
+		D8E012C12ED6E8A8003DD58C /* Build configuration list for PBXNativeTarget "DetectParts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8E012C22ED6E8A8003DD58C /* Debug */,
