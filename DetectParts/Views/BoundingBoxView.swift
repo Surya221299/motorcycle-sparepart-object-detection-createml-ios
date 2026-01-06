@@ -14,7 +14,7 @@ final class BoundingBoxView: UIView {
         isUserInteractionEnabled = false
         backgroundColor = .clear
 
-        layer.borderColor = UIColor.systemYellow.cgColor
+        layer.borderColor = UIColor.systemGreen.cgColor
         layer.borderWidth = 3
         layer.cornerRadius = 6
         layer.masksToBounds = false
@@ -23,7 +23,7 @@ final class BoundingBoxView: UIView {
         label.text = text
         label.font = .systemFont(ofSize: 13, weight: .semibold)
         label.textColor = .black
-        label.backgroundColor = .systemYellow
+        label.backgroundColor = .systemGreen
         label.textAlignment = .center
         label.sizeToFit()
 

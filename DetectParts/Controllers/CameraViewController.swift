@@ -87,9 +87,6 @@ final class CameraViewController: UIViewController {
     }
 
     private func currentOrientation() -> CGImagePropertyOrientation {
-        // Untuk back camera portrait biasanya .right
-        // Kamu sebelumnya pakai .up; ini sering bikin box geser di beberapa device.
-        // Jika hasilmu sudah pas dengan .up, bisa kembalikan.
         return .up
     }
 }
